@@ -1,23 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Pure HTML Calculator</title>
 </head>
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css">
 <body>
-  <main>
-    <div class="calculator-body">
-        <div class="output">
-            <h1>0</h1>
-            </div>
-            <div class="buttons">
-                
-            </div>
+  <h2>Calculator</h2>
+<div class="main">
+  <form>
+    <input type="text" name="display" readonly class="input1" value="0">
+
+    <br><br>
+<div class="buttons">
+  <input type="button" value="Ac">
+  <input type="button" value="DEL">
+  <input type="button" value="%">
+  <button><i class="ri-close-line"></i></button>
+
+  <br>
+    <input type="button" value="7">
+    <input type="button" value="8">
+    <input type="button" value="9">
+    <input type="button" value="/">
+
+    <br>
+
+    <input type="button" value="4">
+    <input type="button" value="5">
+    <input type="button" value="6">
+    <input type="button" value="*">
+
+    <br>
+
+    <input type="button" value="1">
+    <input type="button" value="2">
+    <input type="button" value="3">
+    <input type="button" value="-">
+
+    <br>
+
+    <input type="button" value="0">
+    <input type="button" value=".">
+    <input type="button" value="=">
+    <input type="button" value="+">
     </div>
-  </main>
-    
-    <script src="script.js"></script>
+  </form>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
