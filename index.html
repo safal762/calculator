@@ -1,56 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Pure HTML Calculator</title>
-</head>
-<link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-<link rel="stylesheet" href="style.css">
-<body>
-  <h2>Calculator</h2>
-<div class="main">
-  <form>
-    <input type="text" name="display" readonly class="input1" value="0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="main">
+      <div class="calcu">
+        <div class="result">0</div>
+        <div class="clickbttn">
+          <button class="clscre">C</button>
+          <button class="del">X</button>
+          <button class="number">%</button>
+          <button class="number">/</button>
 
-    <br><br>
-<div class="buttons">
-  <input type="button" value="Ac">
-  <input type="button" value="DEL">
-  <input type="button" value="%">
-  <button><i class="ri-close-line"></i></button>
+          <button class="number">7</button>
+          <button class="number">8</button>
+          <button class="number">9</button>
+          <button class="number">*</button>
 
-  <br>
-    <input type="button" value="7">
-    <input type="button" value="8">
-    <input type="button" value="9">
-    <input type="button" value="/">
+          <button class="number">4</button>
+          <button class="number">5</button>
+          <button class="number">6</button>
+          <button class="number">-</button>
 
-    <br>
+          <button class="number">1</button>
+          <button class="number">2</button>
+          <button class="number">3</button>
+          <button class="number">+</button>
 
-    <input type="button" value="4">
-    <input type="button" value="5">
-    <input type="button" value="6">
-    <input type="button" value="*">
-
-    <br>
-
-    <input type="button" value="1">
-    <input type="button" value="2">
-    <input type="button" value="3">
-    <input type="button" value="-">
-
-    <br>
-
-    <input type="button" value="0">
-    <input type="button" value=".">
-    <input type="button" value="=">
-    <input type="button" value="+">
+          <button class="number">00</button>
+          <button class="number">0</button>
+          <button class="number">.</button>
+          <button class="cal">=</button>
+        </div>
+      </div>
     </div>
-  </form>
-  </div>
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
